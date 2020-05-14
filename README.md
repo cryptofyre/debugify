@@ -7,6 +7,8 @@ The open source iOS 13 Internal Settings installer. The AppleInternal is purged 
 **Download from here**
 https://github.com/iiFir3z/debugify/releases
 
+*Due to a bug in NewTerm the app may crash when running the script for whatever reason. So if that happens to you I recommend using SSH over a computer or another mobile device. Thanks*
+
 ## How to run.
 Download the .sh script and copy it to your iDevice doesn't matter which directory just copy it. Now edit your SystemVersion.plist (File is in /System/Library/CoreServices/SystemVersion.plist) to match the following text Internal descriptor below.
 
