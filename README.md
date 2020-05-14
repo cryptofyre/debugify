@@ -4,6 +4,9 @@ The open source iOS 13 Internal Settings installer. The AppleInternal is purged 
 **PLEASE NOTE THIS ONLY WORKS ON 13.X DEVICES**
 *I have only tested this on the 7,7P,8,8P*
 
+**Download from here**
+https://github.com/iiFir3z/debugify/releases
+
 ## How to run.
 Download the .sh script and copy it to your iDevice doesn't matter which directory just copy it. Now edit your SystemVersion.plist (File is in /System/Library/CoreServices/SystemVersion.plist) to match the following text Internal descriptor below.
 
