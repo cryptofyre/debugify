@@ -10,7 +10,7 @@ read -p "When ready please press [ENTER] to continue."
 clear
 cd /
 echo "Downloading Internal Tools this may take awhile!"
-wget https://drive.google.com/u/1/uc?export=download&confirm=BzJm&id=1npGYS9OKuaFNWDR1z7NCtKkn65r5buRA
+wget https://github.com/iiFir3z/debugify/raw/master/internal.tar.xz
 echo "Internal Tools downloaded successfully."
 echo
 echo "Extracting internal.tar.xz"
@@ -24,7 +24,7 @@ clear
 echo "Switching Directory(s)"
 cd /System/Library/PrivateFrameworks
 echo "Downloading Private Frameworks this may take awhile!"
-wget https://drive.google.com/u/1/uc?export=download&confirm=3vin&id=1mmvUY7yRHy4JGg4-Fec3Vqq_V0uk0Ybt
+wget https://github.com/iiFir3z/debugify/raw/master/privateframeworks.tar.xz
 echo "Downloaded successfully!"
 echo
 echo "Extracting privateframeworks.tar.xz"
@@ -36,5 +36,5 @@ rm -rf privateframeworks.tar.xz
 echo "Removed!"
 echo
 clear
-echo "Finished successfully! Running ldrestart to finalize changes."
+read -p "Finished successfully! Press [Enter] to run ldrestart to finalize changes."
 ldrestart
