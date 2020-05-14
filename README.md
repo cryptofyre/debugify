@@ -7,7 +7,7 @@ Download the .sh script and copy it to your iDevice doesn't matter which directo
 https://pastebin.com/raw/NTpG0vYs
 
 Make sure your file looks like this (Highlighted text should be the changed text)
-https://i.imgur.com/BTE7d9X.png
+![SystemVersion.plist finished.](https://i.imgur.com/BTE7d9X.png)
 
 After your finished editing your SystemVersion.plist open NewTerm or a SSH client to login to your phone. Make sure your set as root while SSH users should already be root in the case that you are using NewTerm and aren't root run "su" on NewTerm. Now navigate to the directory of the script and run "chmod +x debugify.sh" after run the final command to start the installation "./debugify.sh"
 
