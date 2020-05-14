@@ -32,7 +32,7 @@ tar -xvf --keep-old-files privateframeworks.tar.xz
 echo "Extracted successfully!"
 echo
 echo "Removing Old Traces..."
-rm -rf privateframeworks.tar
+rm -rf privateframeworks.tar.xz
 echo "Removed!"
 echo
 clear
