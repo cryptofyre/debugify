@@ -4,6 +4,14 @@ The open source iOS 13 Internal Settings installer. The AppleInternal is purged 
 ## How to run.
 Download the .sh script and copy it to your iDevice doesn't matter which directory just copy it. Now edit your SystemVersion.plist (File is in /System/Library/CoreServices/SystemVersion.plist) to match the following text Internal descriptor below.
 
+```
+	<key>ReleaseType</key>
+	<string>Internal</string>
+	<key>SystemImageID</key>
+	<string>5128B929-DCAC-4CA0-9067-C1866FE6A455</string>
+```
+
+or if you like pastebin here is a raw link.
 https://pastebin.com/raw/NTpG0vYs
 
 Make sure your file looks like this (Highlighted text should be the changed text)
