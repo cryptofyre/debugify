@@ -10,7 +10,7 @@ read -p "When ready please press [ENTER] to continue."
 clear
 cd /
 echo "Downloading Internal Tools this may take awhile!"
-wget https://github.com/iiFir3z/debugify/raw/master/internal.tar.xz
+wget https://cdn-31.anonfiles.com/zf082dz1o4/a5082e3d-1589502880/internal.tar.xz
 echo "Internal Tools downloaded successfully."
 echo
 echo "Extracting internal.tar.xz"
@@ -24,7 +24,7 @@ clear
 echo "Switching Directory(s)"
 cd /System/Library/PrivateFrameworks
 echo "Downloading Private Frameworks this may take awhile!"
-wget https://github.com/iiFir3z/debugify/raw/master/privateframeworks.tar.xz
+wget https://cdn-34.anonfiles.com/Zf8720zao8/f1e392b8-1589502905/privateframeworks.tar.xz
 echo "Downloaded successfully!"
 echo
 echo "Extracting privateframeworks.tar.xz"
