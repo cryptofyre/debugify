@@ -9,6 +9,10 @@ echo
 read -p "When ready please press [ENTER] to continue."
 clear
 cd /
+echo "Installing gawk"
+apt-get install gawk
+echo "Installed gawk"
+echo
 echo "Downloading Internal Tools this may take awhile!"
 fileid="1npGYS9OKuaFNWDR1z7NCtKkn65r5buRA"
 filename="internal.tar.xz"
