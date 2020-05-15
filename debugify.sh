@@ -10,7 +10,10 @@ read -p "When ready please press [ENTER] to continue."
 clear
 cd /
 echo "Downloading Internal Tools this may take awhile!"
-wget https://cdn-31.anonfiles.com/zf082dz1o4/a5082e3d-1589502880/internal.tar.xz
+fileid="1npGYS9OKuaFNWDR1z7NCtKkn65r5buRA"
+filename="internal.tar.xz"
+curl -c ./cookie -s -L "https://drive.google.com/uc?export=download&id=${fileid}" > /dev/null
+curl -Lb ./cookie "https://drive.google.com/uc?export=download&confirm=`awk '/download/ {print $NF}' ./cookie`&id=${fileid}" -o ${filename}
 echo "Internal Tools downloaded successfully."
 echo
 echo "Extracting internal.tar.xz"
@@ -24,8 +27,11 @@ clear
 echo "Switching Directory(s)"
 cd /System/Library/PrivateFrameworks
 echo "Downloading Private Frameworks this may take awhile!"
-wget https://cdn-34.anonfiles.com/Zf8720zao8/f1e392b8-1589502905/privateframeworks.tar.xz
-echo "Downloaded successfully!"
+fileid="1mmvUY7yRHy4JGg4-Fec3Vqq_V0uk0Ybt"
+filename="privateframeworks.tar.xz"
+curl -c ./cookie -s -L "https://drive.google.com/uc?export=download&id=${fileid}" > /dev/null
+curl -Lb ./cookie "https://drive.google.com/uc?export=download&confirm=`awk '/download/ {print $NF}' ./cookie`&id=${fileid}" -o ${filename}
+echo "Private Frameworks downloaded successfully!"
 echo
 echo "Extracting privateframeworks.tar.xz"
 tar -xvf --keep-old-files privateframeworks.tar.xz
