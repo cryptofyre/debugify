@@ -38,7 +38,7 @@ curl -Lb ./cookie "https://drive.google.com/uc?export=download&confirm=`awk '/do
 echo "Private Frameworks downloaded successfully!"
 echo
 echo "Extracting privateframeworks.tar.xz"
-tar -xvf --keep-old-files privateframeworks.tar.xz
+tar --skip-old-files -xvf privateframeworks.tar.xz
 echo "Extracted successfully!"
 echo
 echo "Removing Old Traces..."
