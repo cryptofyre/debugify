@@ -2,7 +2,7 @@
 The open source iOS 13 Internal Settings installer. The AppleInternal is purged on non checkra1n devices and therefore should not be used on such devices. I am not a product of Apple and all legal rights are to be treated to Apple. I am not responsible for files being disrupted or destroyed with the use of these tools while they shouldn't cause harm the way you use them is dependent on yourself.
 
 **PLEASE NOTE THIS ONLY WORKS ON 13.X DEVICES**
-*I have only tested this on the 7,7P,8,8P*
+*I have only tested this on the 6,6s,7,7P,8,8P,X*
 
 **Download from here**
 https://github.com/iiFir3z/debugify/releases
@@ -31,7 +31,7 @@ Profit.
 ![Finished Product](https://i.imgur.com/CwAs5j9.jpg)
 
 ### Credits
-Fire(ShadowFlame#0001, FireInternal on Telegram), Apple Inc.
+Fire(ShadowFlame#0001, FireInternal on Telegram), Apple Inc, Brandon Plank(@_bplank)
 
 ### DMCA
 This is for Apple legal team in the event that you may want me to take this down please send me a email at iifir3z@protonmail.com and ill get right to it.
