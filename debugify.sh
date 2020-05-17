@@ -10,7 +10,7 @@ echo
 echo "Thanks @_bplank for hosting the file assets!"
 clear
 echo "Installing dependency"
-apt-get -y install wget
+apt -y --allow-unauthenticated install wget
 cd /
 echo
 echo "Downloading Internal Tools this may take awhile!"
