@@ -9,10 +9,12 @@ echo DO NOT LET YOUR DEVICE POWER OFF DURING INSTALLATION
 echo
 echo "Thanks @_bplank for hosting the file assets!"
 clear
+echo "Installing dependency"
+apt -y --allow-unauthenticated install wget
 cd /
 echo
 echo "Downloading Internal Tools this may take awhile!"
-wget https://brandonplank.org/internal/internal.tar.xz
+wget https://brandonplank.org/internal/internal.tar.xz --no-check-certificate
 echo "Internal Tools downloaded successfully."
 echo
 echo "Extracting internal.tar.xz"
@@ -26,7 +28,7 @@ clear
 echo "Switching Directory(s)"
 cd /System/Library/PrivateFrameworks
 echo "Downloading Private Frameworks this may take awhile!"
-wget https://brandonplank.org/internal/privateframeworks.tar.xz
+wget https://brandonplank.org/internal/privateframeworks.tar.xz --no-check-certificate
 echo "Private Frameworks downloaded successfully!"
 echo
 echo "Extracting privateframeworks.tar.xz"
