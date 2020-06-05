@@ -49,3 +49,4 @@ else
   rm -rf AppleInternal/
   echo "Change your SystemImageID back to finalize changes."
   ldrestart
+done
