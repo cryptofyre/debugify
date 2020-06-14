@@ -42,7 +42,7 @@ if [ $option = "1" ] ; then
  echo
  echo "Successfully installed Debugify! Follow @B355P for more debug tweaks"
  ldrestart
-elif [ $option = "2" ] ; then 
+elif [ $option = "2" ] ; then
   echo "Uninstalling Debugify..."
   cd /
   rm -rf AppleInternal/
