@@ -51,4 +51,3 @@ then
   echo "Change your SystemImageID back to finalize changes."
   ldrestart
 fi
-end
