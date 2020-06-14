@@ -42,10 +42,10 @@ if [ $option == "1" ]; then
  echo
  echo "Successfully installed Debugify! Follow @B355P for more debug tweaks"
  ldrestart
-else
+else;
   echo "Uninstalling Debugify..."
   cd /
   rm -rf AppleInternal/
   echo "Change your SystemImageID back to finalize changes."
   ldrestart
-done;
+done
