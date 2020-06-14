@@ -4,7 +4,7 @@ echo Please select an option.
 echo 1. Install Debugify
 echo 2. Uninstall Debugify
 read option
-if [ $option == "1" ] ; then
+if [ $option = "1" ] ; then
  echo "Installing Debugify Please Wait..."
  echo "Installing all dependencys"
  apt -y --allow-unauthenticated install wget
@@ -42,7 +42,7 @@ if [ $option == "1" ] ; then
  echo
  echo "Successfully installed Debugify! Follow @B355P for more debug tweaks"
  ldrestart
-elif [ $option == "2" ] ; then 
+elif [ $option = "2" ] ; then 
   echo "Uninstalling Debugify..."
   cd /
   rm -rf AppleInternal/
