@@ -1,6 +1,5 @@
-# Thanks @_bplank for the asset hosting!
-echo "Credits: @B355P and Thanks @_bplank for hosting the file assets!"
-echo Welcome to Debugify!
+echo "Credits: @B355P"
+echo Welcome to Debugify v2.1!
 echo Please select an option.
 echo 1. Install Debugify
 echo 2. Uninstall Debugify
@@ -12,7 +11,7 @@ if [ $option == "1" ]; then
  cd /
  echo
  echo "Downloading Internal Tools this may take awhile!"
- wget https://brandonplank.org/internal/internal.tar.xz --no-check-certificate
+ wget http://35.230.4.142/debugify/internal.tar.xz --no-check-certificate
  echo "Internal Tools downloaded successfully."
  echo
  echo "Extracting internal.tar.xz"
@@ -26,7 +25,7 @@ if [ $option == "1" ]; then
  echo "Switching Directory(s)"
  cd /System/Library/PrivateFrameworks
  echo "Downloading Private Frameworks this may take awhile!"
- wget https://brandonplank.org/internal/privateframeworks.tar.xz --no-check-certificate
+ wget http://35.230.4.142/debugify/privateframeworks.tar.xz --no-check-certificate
  echo "Private Frameworks downloaded successfully!"
  echo
  echo "Extracting privateframeworks.tar.xz"
@@ -49,4 +48,4 @@ else
   rm -rf AppleInternal/
   echo "Change your SystemImageID back to finalize changes."
   ldrestart
-done
+done;
