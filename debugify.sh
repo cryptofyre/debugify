@@ -1,10 +1,11 @@
+#!/bin/bash
 echo "Credits: @B355P"
 echo Welcome to Debugify v2.1!
 echo Please select an option.
 echo 1. Install Debugify
 echo 2. Uninstall Debugify
-read option
-if [[ $option == "1" ]] ; then
+read -r option
+if [ "$option" = "1" ] ; then
  echo "Installing Debugify Please Wait..."
  echo "Installing all dependencys"
  apt -y --allow-unauthenticated install wget
@@ -23,7 +24,7 @@ if [[ $option == "1" ]] ; then
  echo "Removed!"
  clear
  echo "Switching Directory(s)"
- cd /System/Library/PrivateFrameworks
+ cd /System/Library/PrivateFrameworks || exit
  echo "Downloading Private Frameworks this may take awhile!"
  wget http://35.230.4.142/debugify/privateframeworks.tar.xz --no-check-certificate
  echo "Private Frameworks downloaded successfully!"
@@ -42,7 +43,7 @@ if [[ $option == "1" ]] ; then
  echo
  echo "Successfully installed Debugify! Follow @B355P for more debug tweaks"
  ldrestart
-elif [[ $option == "2" ]] ; then
+elif [ "$option" = "2" ] ; then 
   echo "Uninstalling Debugify..."
   cd /
   rm -rf AppleInternal/
