@@ -12,22 +12,9 @@ https://github.com/iiFir3z/debugify/releases
 *Due to a bug in NewTerm the app may crash when running the script for whatever reason. So if that happens to you I recommend using SSH over a computer or another mobile device. Thanks*
 
 ## How to run.
-Download the .sh script and copy it to your iDevice doesn't matter which directory just copy it. Now edit your SystemVersion.plist (File is in /System/Library/CoreServices/SystemVersion.plist) to match the following text Internal descriptor below.
+Open NewTerm or a SSH client to login to your phone. Make sure your set as root while SSH users should already be root in the case that you are using NewTerm and aren't root run "su" on NewTerm. Now navigate to the directory of the script and run "chmod +x debugify.sh" after run the final command to start the installation "./debugify.sh"
 
-```
-	<key>ReleaseType</key>
-	<string>Internal</string>
-	<key>SystemImageID</key>
-	<string>5128B929-DCAC-4CA0-9067-C1866FE6A455</string>
-```
-
-or if you like pastebin here is a raw link.
-https://pastebin.com/raw/NTpG0vYs
-
-Make sure your file looks like this (Highlighted text should be the changed text)
-![SystemVersion.plist finished.](https://i.imgur.com/BTE7d9X.png)
-
-After your finished editing your SystemVersion.plist open NewTerm or a SSH client to login to your phone. Make sure your set as root while SSH users should already be root in the case that you are using NewTerm and aren't root run "su" on NewTerm. Now navigate to the directory of the script and run "chmod +x debugify.sh" after run the final command to start the installation "./debugify.sh"
+**SystemVersion.plist no longer needs to be edited as of v2.1 therefore the instruction has been removed!**
 
 Profit.
 ![Finished Product](https://i.imgur.com/CwAs5j9.jpg)
