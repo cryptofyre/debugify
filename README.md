@@ -9,7 +9,7 @@ The open source iOS 13 Internal Settings installer. The AppleInternal is purged 
 **Download from here**
 https://github.com/iiFir3z/debugify/releases
 
-*Due to a bug in NewTerm the app may crash when running the script for whatever reason. So if that happens to you I recommend using SSH over a computer or another mobile device. Thanks*
+*If the regular debugify script doesn't work use InstallerOnly.sh Thanks!*
 
 ## How to run.
 Open NewTerm or a SSH client to login to your phone. Make sure your set as root while SSH users should already be root in the case that you are using NewTerm and aren't root run "su" on NewTerm. Now navigate to the directory of the script and run "chmod +x debugify.sh" after run the final command to start the installation "./debugify.sh"
