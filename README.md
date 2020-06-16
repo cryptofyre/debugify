@@ -4,7 +4,7 @@ The open source iOS 13 Internal Settings installer. The AppleInternal is purged 
 **STAY AWAY FROM INTERNALPWN's VERSION OF DEBUGIFY. THEY STEAL IDEAS AND CALL IT THEIR OWN.**
 
 **PLEASE NOTE THIS ONLY WORKS ON 13.X DEVICES**
-*I have only tested this on the 6,6s,7,7P,8,8P,X*
+*I have only tested this on the 6s,7,7P,8,8P,X*
 
 **Download from here**
 https://github.com/iiFir3z/debugify/releases
