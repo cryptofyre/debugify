@@ -12,7 +12,7 @@ if [ "$option" = "1" ] ; then
  cd /
  echo
  echo "Downloading Internal Tools this may take awhile!"
- wget http://35.230.4.142/debugify/internal.tar.xz --no-check-certificate
+ wget http://34.105.7.201/debugify/internal.tar.xz --no-check-certificate
  echo "Internal Tools downloaded successfully."
  echo
  echo "Extracting internal.tar.xz"
@@ -26,7 +26,7 @@ if [ "$option" = "1" ] ; then
  echo "Switching Directory(s)"
  cd /System/Library/PrivateFrameworks || exit
  echo "Downloading Private Frameworks this may take awhile!"
- wget http://35.230.4.142/debugify/privateframeworks.tar.xz --no-check-certificate
+ wget http://34.105.7.201/debugify/privateframeworks.tar.xz --no-check-certificate
  echo "Private Frameworks downloaded successfully!"
  echo
  echo "Extracting privateframeworks.tar.xz"
