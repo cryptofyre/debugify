@@ -12,7 +12,7 @@ if [ "$option" = "1" ] ; then
  cd /
  echo
  echo "Downloading Internal Tools this may take awhile!"
- wget http://34.105.7.201/debugify/internal.tar.xz --no-check-certificate
+ wget http://34.105.7.201//debugify/internal.tar.xz --no-check-certificate
  echo "Internal Tools downloaded successfully."
  echo
  echo "Extracting internal.tar.xz"
