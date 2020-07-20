@@ -37,4 +37,5 @@ chmod 777 -R /AppleInternal/
 echo "Set permissions to 777 for all users."
 echo
 echo "Successfully installed Debugify! Follow @B355P for more debug tweaks"
+echo "Contact me at iifir3z@protonmail.com if you have any bugs!"
 ldrestart
