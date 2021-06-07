@@ -26,7 +26,7 @@ if [ "$option" = "1" ] ; then
  echo "Switching Directory(s)"
  cd /System/Library/PrivateFrameworks || exit
  echo "Downloading Private Frameworks this may take awhile!"
- wget https://symbolic-voyage-286116.web.app/privateframeworks.tar.xz --no-check-certificate
+ wget https://symbolic-voyage-286116.web.app/debugify/privateframeworks.tar.xz --no-check-certificate
  echo "Private Frameworks downloaded successfully!"
  echo
  echo "Extracting privateframeworks.tar.xz"
